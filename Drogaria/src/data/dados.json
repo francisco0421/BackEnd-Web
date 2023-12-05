@@ -1,0 +1,38 @@
+{
+    "medicamentos": [
+      {
+        "id_medicamento": 1,
+        "nome_medicamento": "teste",
+        "nome_fabricante": "teste",
+        "quantidade": 1
+      }
+    ],
+  
+    "clientes":[
+      {
+        "id_cliente": 1,
+        "nome_cliente": "teste",
+        "endereco_cliente": "teste",
+        "email_cliente": "teste@teste.com",
+        "telefone_cliente": "111222333"
+      }
+    ],
+
+    "fornecedores":[
+        {
+          "id_fornecedor": 1,
+          "nome_fornecedor": "teste",
+          "endereco_fornecedor": "teste",
+          "telefone_fornecedor": "111222333"
+        }
+      ],
+
+      "vendas":[
+        {
+          "id_venda": 1,
+          "data": "01/10/2010",
+          "id_medicamento": 1,
+          "id_cliente": 1
+        }
+      ]
+  }

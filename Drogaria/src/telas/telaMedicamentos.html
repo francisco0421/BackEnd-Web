@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Medicamentos</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gerenciamento de Medicamentos</h1>
+    <h2>Adicionar Medicamento</h2>
+    <form id="formAdicionarMedicamento">
+        <label for="idMedicamento">ID: </label>
+        <input type="text" id="idMedicamento" name="idMedicamento" required>
+
+        <label for="nomeMedicamento">Nome: </label>
+        <input type="text" id="nomeMedicamento" name="nomeMedicamento" required>
+        
+        <label for="nomeFabricante">Fabricante: </label>
+        <input type="text" id="nomeFabricante" name="nomeFabricante" required>
+
+        <label for="quantidade">Quantidade: </label>
+        <input type="text" id="quantidade" name="quantidade" required>
+    
+        <button type="button" onclick="adicionarMedicamento()">Adicionar</button>
+    </form>
+
+    <h2>Listar Medicamentos</h2>
+    <ul id="listaMedicamentos"></ul>
+
+    <script src="../clients/medicamentos.js"></script>
+</body>
+</html>
